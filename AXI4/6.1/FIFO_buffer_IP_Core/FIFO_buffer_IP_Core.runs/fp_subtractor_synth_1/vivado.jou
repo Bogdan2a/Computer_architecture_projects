@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov 10 11:10:23 2023
+# Process ID: 14088
+# Current directory: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_subtractor_synth_1
+# Command line: vivado.exe -log fp_subtractor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_subtractor.tcl
+# Log file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_subtractor_synth_1/fp_subtractor.vds
+# Journal file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_subtractor_synth_1\vivado.jou
+# Running On: DESKTOP-OT8PN98, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17058 MB
+#-----------------------------------------------------------
+source fp_subtractor.tcl -notrace

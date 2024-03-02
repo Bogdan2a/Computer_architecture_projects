@@ -1,0 +1,2 @@
+fp_abs.v,verilog,xil_defaultlib,../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_abs/sim/fp_abs.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

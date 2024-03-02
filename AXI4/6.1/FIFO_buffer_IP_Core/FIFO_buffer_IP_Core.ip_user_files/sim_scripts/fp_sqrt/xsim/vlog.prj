@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_sqrt/sim/fp_sqrt.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

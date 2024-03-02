@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TESTcacheAdrDirecta_behav" "xil_defaultlib.TESTcacheAdrDirecta" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FIFO_buffer_IP_Core.ip_user_files/ipstatic/hdl" \
+"../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fifo32x64/sim/fifo32x64.v" \
+"../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_sqrt/sim/fp_sqrt.v" \
+"../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_abs/sim/fp_abs.v" \
+"../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_subtractor/sim/fp_subtractor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

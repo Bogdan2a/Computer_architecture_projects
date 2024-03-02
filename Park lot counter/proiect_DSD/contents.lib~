@@ -1,0 +1,15 @@
+152
+~E 1 "./src/poarta_OR.vhd" 4 poarta_or_ent
+~A 1 "./src/poarta_OR.vhd" 9 poarta_or_arh
+~E 1 "./src/poarta_AND.vhd" 4 poarta_and_ent
+~A 1 "./src/poarta_AND.vhd" 9 poarta_and_arh
+~E 1 "./src/poarta_AND2.vhd" 4 poarta_and2_ent
+~A 1 "./src/poarta_AND2.vhd" 9 poarta_and2_arh
+~E 1 "./src/poarta_OR3vhd" 4 poarta_or3_ent
+~A 1 "./src/poarta_OR3vhd" 9 poarta_or3_arh
+~E 1 "./src/poarta_XOR.vhd" 4 poarta_xor_ent
+~A 1 "./src/poarta_XOR.vhd" 9 poarta_xor_arh
+~E 1 "./src/poarta_XOR.vhd" 4 poarta_xor3_ent
+~A 1 "./src/poarta_XOR3.vhd" 9 poarta_xor3_arh
+~E 1 "./src/sumator complet pe 1 bit.vhd" 4 sumator_ent
+~A 1 "./src/sumator complet pe 1 bit.vhd" 9 sumator_arh

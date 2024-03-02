@@ -1,0 +1,2 @@
+fp_subtractor.v,verilog,xil_defaultlib,../../../../FIFO_buffer_IP_Core.gen/sources_1/ip/fp_subtractor/sim/fp_subtractor.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

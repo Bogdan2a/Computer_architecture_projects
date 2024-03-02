@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CacheRam_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CacheRam_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="796.001 ns"></ZoomEndTime>
+      <Cursor1Time time="171.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/CacheRam_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/read_op" type="logic">
+      <obj_property name="ElementShortName">read_op</obj_property>
+      <obj_property name="ObjectShortName">read_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/write_op" type="logic">
+      <obj_property name="ElementShortName">write_op</obj_property>
+      <obj_property name="ObjectShortName">write_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/wrdata" type="array">
+      <obj_property name="ElementShortName">wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/rddata" type="array">
+      <obj_property name="ElementShortName">rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/wrdata" type="array">
+      <obj_property name="ElementShortName">wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/rddata" type="array">
+      <obj_property name="ElementShortName">rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/wr_cache" type="logic">
+      <obj_property name="ElementShortName">wr_cache</obj_property>
+      <obj_property name="ObjectShortName">wr_cache</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/wr_ram" type="logic">
+      <obj_property name="ElementShortName">wr_ram</obj_property>
+      <obj_property name="ObjectShortName">wr_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/invalidate" type="logic">
+      <obj_property name="ElementShortName">invalidate</obj_property>
+      <obj_property name="ObjectShortName">invalidate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/validate" type="logic">
+      <obj_property name="ElementShortName">validate</obj_property>
+      <obj_property name="ObjectShortName">validate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/wren" type="logic">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/hit_out" type="logic">
+      <obj_property name="ElementShortName">hit_out</obj_property>
+      <obj_property name="ObjectShortName">hit_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/cache_ready" type="logic">
+      <obj_property name="ElementShortName">cache_ready</obj_property>
+      <obj_property name="ObjectShortName">cache_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/ram_out" type="array">
+      <obj_property name="ElementShortName">ram_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/ram_ready" type="logic">
+      <obj_property name="ElementShortName">ram_ready</obj_property>
+      <obj_property name="ObjectShortName">ram_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/cache_out" type="array">
+      <obj_property name="ElementShortName">cache_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/DUT/which" type="logic">
+      <obj_property name="ElementShortName">which</obj_property>
+      <obj_property name="ObjectShortName">which</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/read_op" type="logic">
+      <obj_property name="ElementShortName">read_op</obj_property>
+      <obj_property name="ObjectShortName">read_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/write_op" type="logic">
+      <obj_property name="ElementShortName">write_op</obj_property>
+      <obj_property name="ObjectShortName">write_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/wrdata" type="array">
+      <obj_property name="ElementShortName">wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/rddata" type="array">
+      <obj_property name="ElementShortName">rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CacheRam_TB/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>

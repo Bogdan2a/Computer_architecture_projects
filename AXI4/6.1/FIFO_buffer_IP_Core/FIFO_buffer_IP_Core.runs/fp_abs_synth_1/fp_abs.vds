@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov 10 11:39:19 2023
+# Process ID: 3196
+# Current directory: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_abs_synth_1
+# Command line: vivado.exe -log fp_abs.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_abs.tcl
+# Log file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_abs_synth_1/fp_abs.vds
+# Journal file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_abs_synth_1\vivado.jou
+# Running On: DESKTOP-OT8PN98, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17058 MB
+#-----------------------------------------------------------
+source fp_abs.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 393.719 ; gain = 60.684
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fp_abs
+Command: synth_design -top fp_abs -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12872
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [F:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1211.867 ; gain = 406.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fp_abs' [c:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.gen/sources_1/ip/fp_abs/synth/fp_abs.v:53]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [F:/Vivado/2022.2/scripts/rt/data/unisim_comp.v:78971]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [F:/Vivado/2022.2/scripts/rt/data/unisim_comp.v:78971]
+INFO: [Synth 8-6155] done synthesizing module 'fp_abs' (0#1) [c:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.gen/sources_1/ip/fp_abs/synth/fp_abs.v:53]
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Q[0] in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module xbip_pipe_v3_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_a_tuser[0] in module axi_slave_2to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_a_tlast in module axi_slave_2to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tuser[0] in module axi_slave_2to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tlast in module axi_slave_2to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tvalid in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[31] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[30] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[29] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[28] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[27] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[26] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[25] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[24] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[23] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[22] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[21] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[20] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[19] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[18] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[17] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[16] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[15] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[14] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[13] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[12] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[11] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[10] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[9] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[8] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[7] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[6] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[5] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[4] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[3] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[2] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[1] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[0] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tuser[0] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tlast in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tvalid in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[31] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[30] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[29] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[28] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[27] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[26] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[25] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[24] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[23] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[22] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[21] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[20] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[19] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[18] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[17] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[16] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[15] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[14] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[13] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[12] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[11] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[10] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[9] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[8] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[7] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[6] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[5] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[4] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[3] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[2] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[1] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[0] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tuser[0] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tlast in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tvalid in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[7] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[6] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[5] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[4] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[3] in module floating_point_v7_1_15_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_operation_tdata[2] in module floating_point_v7_1_15_viv is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1379.723 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1379.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1379.723 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [F:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 85 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1379.723 ; gain = 574.555
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1379.723 ; gain = 574.555
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1379.723 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1379.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: d603ecec
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1379.723 ; gain = 953.484
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_abs_synth_1/fp_abs.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP fp_abs, cache-ID = 08c59bf339a2abe1
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/6.1/FIFO_buffer_IP_Core/FIFO_buffer_IP_Core.runs/fp_abs_synth_1/fp_abs.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fp_abs_utilization_synth.rpt -pb fp_abs_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 10 11:40:25 2023...

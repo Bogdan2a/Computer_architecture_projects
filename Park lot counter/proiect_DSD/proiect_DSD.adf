@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=proiect_DSD
+
+[Library]
+proiect_DSD=.\proiect_DSD.lib
+
+[$LibMap$]
+proiect_DSD=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+REFRESH_FLOW=1
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=proiect_ent|proiect_arh|0           
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\Lab_DSD\proiect_DSD\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\Lab_DSD\proiect_DSD\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\Lab_DSD\proiect_DSD\
+Extension5=dll
+
+[Files]
+/main.vhd=-1
+
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+

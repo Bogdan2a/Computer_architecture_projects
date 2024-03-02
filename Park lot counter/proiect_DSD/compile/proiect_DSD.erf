@@ -1,0 +1,4 @@
+MESSAGE "File: c:\My_Designs\Lab_DSD\proiect_DSD\src\main.vhd" 
+MESSAGE "Compile Entity "proiect_ent"" 
+MESSAGE "Compile Architecture "proiect_arh" of Entity "proiect_ent"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

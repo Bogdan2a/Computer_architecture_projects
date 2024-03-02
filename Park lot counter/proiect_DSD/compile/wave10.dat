@@ -1,0 +1,93 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 reset
+I 2 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 2 2 A
+$SC 9 +4
+$BUS IN 26 2 2 B
+$SC 18 +4
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 43 3 4 y
+$SC 27-39/4
+I 4 "e#9#stare_tips8 s0 s1 s2 s3 s4 s5 s6 s7 "
+$S +5 4 stare
+$BUS S 64 3 4 locuri
+$SC 48-60/4
+$ENDTIME 20000
+$WAVES 1-13/4 +5 +4 60
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 27-39/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES +9-+8/4
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 44
+*0
+$VALUES
+V 1
+s0
+$END
+$ENDTIME 594225700000
+$WAVES 39
+=1 D 50k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 9
+=2 D 20k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*2
+=3 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1
+R 1 11884514 =4 T 50k
+$VALUES
+R 2 5942257 1 0
+$END
+$WAVES 27
+*1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*1
+$VALUES
+V 1
+1
+$END
+$WAVES +9
+*1
+$VALUES
+V 1
+s1
+$END
+$ENDWAVE

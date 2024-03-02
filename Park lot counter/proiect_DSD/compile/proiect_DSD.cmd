@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Lab_DSD\library.cfg"  -j "c:\My_Designs\Lab_DSD\proiect_DSD\projlib.cfg"  -d "c:\My_Designs\Lab_DSD\proiect_DSD\compile\"  -work proiect_DSD -dbg -e 100 "c:\My_Designs\Lab_DSD\proiect_DSD\src\main.vhd" 

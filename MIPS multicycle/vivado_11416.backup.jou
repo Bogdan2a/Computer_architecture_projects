@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov 25 19:19:13 2023
+# Process ID: 11416
+# Current directory: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab8/MIPS_multicycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11568 C:\Users\bogdi\OneDrive\Desktop\SCS\Lab8\MIPS_multicycle\MIPS_multicycle.xpr
+# Log file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab8/MIPS_multicycle/vivado.log
+# Journal file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab8/MIPS_multicycle\vivado.jou
+# Running On: DESKTOP-OT8PN98, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17058 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bogdi/OneDrive/Desktop/SCS/Lab8/MIPS_multicycle/MIPS_multicycle.xpr
+update_compile_order -fileset sources_1

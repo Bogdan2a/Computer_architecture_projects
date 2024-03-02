@@ -1,0 +1,106 @@
+Time resolution is 1 ps
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. testbench_stimulus_file.dut.fifo_in_t1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /testbench_stimulus_file/dut/fifo_in_t1/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_26  Scope: testbench_stimulus_file.dut.fifo_in_t1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: /wrk/ci/prod/2022.2/sw/continuous/3508/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. testbench_stimulus_file.dut.fifo_in_t2.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /testbench_stimulus_file/dut/fifo_in_t2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_26  Scope: testbench_stimulus_file.dut.fifo_in_t2.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: /wrk/ci/prod/2022.2/sw/continuous/3508/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. testbench_stimulus_file.dut.fifo_in_t3.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /testbench_stimulus_file/dut/fifo_in_t3/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_26  Scope: testbench_stimulus_file.dut.fifo_in_t3.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: /wrk/ci/prod/2022.2/sw/continuous/3508/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. testbench_stimulus_file.dut.fifo_in_t4.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /testbench_stimulus_file/dut/fifo_in_t4/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_26  Scope: testbench_stimulus_file.dut.fifo_in_t4.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: /wrk/ci/prod/2022.2/sw/continuous/3508/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. testbench_stimulus_file.dut.fifo_out.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /testbench_stimulus_file/dut/fifo_out/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_26  Scope: testbench_stimulus_file.dut.fifo_out.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: /wrk/ci/prod/2022.2/sw/continuous/3508/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Note: Values measured at time t = 12/04/2022 13:00 successfully read
+Time: 130 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:01 successfully read
+Time: 150 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:02 successfully read
+Time: 170 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:03 successfully read
+Time: 190 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:04 successfully read
+Time: 210 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:05 successfully read
+Time: 230 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:06 successfully read
+Time: 250 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:07 successfully read
+Time: 270 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:08 successfully read
+Time: 290 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:09 successfully read
+Time: 310 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:10 successfully read
+Time: 330 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:11 successfully read
+Time: 350 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:12 successfully read
+Time: 370 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:13 successfully read
+Time: 390 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:14 successfully read
+Time: 410 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:15 successfully read
+Time: 430 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:16 successfully read
+Time: 450 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:17 successfully read
+Time: 470 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:18 successfully read
+Time: 490 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:19 successfully read
+Time: 510 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:20 successfully read
+Time: 530 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:21 successfully read
+Time: 550 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:22 successfully read
+Time: 570 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:23 successfully read
+Time: 590 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:24 successfully read
+Time: 610 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:25 successfully read
+Time: 630 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:26 successfully read
+Time: 650 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:27 successfully read
+Time: 670 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:28 successfully read
+Time: 690 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:29 successfully read
+Time: 710 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:30 successfully read
+Time: 730 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:31 successfully read
+Time: 750 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:32 successfully read
+Time: 770 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:33 successfully read
+Time: 790 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:34 successfully read
+Time: 810 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:35 successfully read
+Time: 830 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:36 successfully read
+Time: 850 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:37 successfully read
+Time: 870 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:38 successfully read
+Time: 890 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:39 successfully read
+Time: 910 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:40 successfully read
+Time: 930 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:41 successfully read
+Time: 950 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:42 successfully read
+Time: 970 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:43 successfully read
+Time: 990 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:44 successfully read
+Time: 1010 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/04/2022 13:45 successfully read
+Time: 1030 ns  Iteration: 0  Process: /testbench_stimulus_file/line__58  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: execution finished...
+Time: 2150 ns  Iteration: 0  Process: /testbench_stimulus_file/line__105  File: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab6/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+INFO: xsimkernel Simulation Memory Usage: 20544 KB (Peak: 20544 KB), Simulation CPU Usage: 15453 ms

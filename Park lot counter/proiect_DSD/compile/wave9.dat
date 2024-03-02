@@ -1,0 +1,16 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 9 1 2 A
+$SC 1 5
+$BUS IN 18 1 2 B
+$SC 10 +4
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 39 3 5 locuri
+$SC 19-35/4
+$BUS OUT 60 3 5 y
+$SC 40-56/4
+I 4 "e#9#stare_tips8 s0 s1 s2 s3 s4 s5 s6 s7 "
+$S +5 4 stare
+$ENDWAVE

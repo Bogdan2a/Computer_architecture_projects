@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  3 11:40:00 2023
+# Process ID: 3672
+# Current directory: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab5/FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2796 C:\Users\bogdi\OneDrive\Desktop\SCS\Lab5\FIFO\FIFO.xpr
+# Log file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab5/FIFO/vivado.log
+# Journal file: C:/Users/bogdi/OneDrive/Desktop/SCS/Lab5/FIFO\vivado.jou
+# Running On: DESKTOP-OT8PN98, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17058 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bogdi/OneDrive/Desktop/SCS/Lab5/FIFO/FIFO.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench_fifo_memory.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench_fifo_memory/uut/fifo88/rdptr}} {{/testbench_fifo_memory/uut/fifo88/wrptr}} {{/testbench_fifo_memory/uut/fifo88/fifo}} 
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+close_sim
+launch_simulation
+source testbench_fifo_memory.tcl
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+close_sim
+launch_simulation
+source testbench_fifo_memory.tcl
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+close_sim

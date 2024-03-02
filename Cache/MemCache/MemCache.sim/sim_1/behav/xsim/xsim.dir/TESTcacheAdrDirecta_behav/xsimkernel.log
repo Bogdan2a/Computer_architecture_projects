@@ -1,0 +1,7 @@
+Running: xsim.dir/TESTcacheAdrDirecta_behav/xsimk.exe -simmode gui -wdb TESTcacheAdrDirecta_behav.wdb -simrunnum 0 -socket 57463
+Design successfully loaded
+Design Loading Memory Usage: 7948 KB (Peak: 7948 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 8484 KB (Peak: 8484 KB)
+Simulation CPU Usage: 124 ms
