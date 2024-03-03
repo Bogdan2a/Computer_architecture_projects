@@ -2,7 +2,7 @@
 
 Projects developed throughout Computer Architecture classes.
 
-This repository includes the following projects:
+The following are included:
 
 * Single-cycle MIPS 16bit processor able to execute 15 distinct instructions of type R, I and J, loaded onto a Basys3 board for live interactive simulation
 * Multi-cycle MIPS 32bit processor able to execute R and I-type instructions simulated using test-benches in Vivado
